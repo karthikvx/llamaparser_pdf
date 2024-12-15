@@ -1,0 +1,12 @@
+
+"""
+Two documents records returned. 
+One document states the EGI was $24,000. 
+The other document explains that it lacks the necessary data to calculate EGI, requiring details such as rental income and vacancy losses for accurate computation. Therefore, the documents present conflicting information on the 2011 EGI. One provides a figure while the other indicates an inability to determine that figure.
+"""
+
+[
+    Document(id_='424d37ca-df89-4db3-a37e-e642bd5dad7d', embedding=None, metadata={}, excluded_embed_metadata_keys=[], excluded_llm_metadata_keys=[], relationships={}, metadata_template='{key}: {value}', metadata_separator='\n', text='The Effective Gross Income for the year 2011 is $24,000.', mimetype='text/plain', start_char_idx=None, end_char_idx=None, metadata_seperator='\n', text_template='{metadata_str}\n\n{content}'), 
+    Document(id_='fc703ee0-d04f-4073-a028-10cbaea67075', embedding=None, metadata={}, excluded_embed_metadata_keys=[], excluded_llm_metadata_keys=[], relationships={}, metadata_template='{key}: {value}', metadata_separator='\n', text='The document does not provide specific figures or details regarding the Effective Gross Income for the year 2011. To determine the Effective Gross Income, you would typically need to look for total rental income, vacancy losses, and any other income sources listed in the document. If you have access to those specific figures, 
+    please provide them, and I can help you calculate the Effective Gross Income.', mimetype='text/plain', start_char_idx=None, end_char_idx=None, metadata_seperator='\n', text_template='{metadata_str}\n\n{content}')
+]
